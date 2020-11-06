@@ -1,0 +1,97 @@
+.hero {
+  position: relative;
+  background-color: dodgerblue;
+  height: 400px;
+}
+
+.container-hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 0 60px;
+}
+
+.deployment {
+  padding-top: 60px;
+  max-width: 600px;
+}
+
+.deployment p {
+  margin: 20px 0;
+}
+
+.deployment h1 {
+  font-size: 40px;
+}
+
+//Demo Section
+
+.showcase-form {
+  position: relative;
+  top: 40px;
+  width: 400px;
+  padding: 40px;
+  z-index: 100;
+}
+
+.showcase-form .form-control {
+  margin: 30px 0;
+}
+
+.showcase-form input[type='text'],
+.showcase-form input[type='email']{
+  border: 0;
+  border-bottom: 1px solid gray;
+  width: 100%;
+  padding: 3px;
+  font-size: 1rem;
+}
+
+.hero::before,
+.hero::after {
+  content: "";
+  position: absolute;
+  height: 100px;
+  bottom: -70px;
+  right: 0;
+  left: 0;
+  background: white;
+  transform: skewY(-3deg);
+}
+
+.card {
+  background-color: white;
+  color: black;
+  padding: 30px;
+  font-size: 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  cursor: pointer;
+  background: dodgerblue;
+  color: white;
+  border: none;
+  border-radius: 15px;
+}
+
+.btn-deploy {
+  display: inline-block;
+  padding: 10px 30px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+.btn:hover {
+  transform: scale(0.98);
+}
+
+.btn-deploy:hover {
+  transform: scale(0.98);
+}

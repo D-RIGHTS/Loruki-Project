@@ -1,0 +1,21 @@
+.cloud-section {
+  background-color: dodgerblue;
+  height: 350px;
+}
+
+.container-cloud {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  margin: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+.container-cloud img  {
+  width: 30%;
+}
+
+.cloud-host {
+  padding: 20px;
+}

@@ -1,0 +1,24 @@
+.Conclusion {
+  background-color: #090947;
+  height: 250px;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 70px;
+}
+
+.icons-footer {
+  display: flex;
+  align-items: center;
+}
+
+.font-div {
+  padding: 0 10px;
+}
+
+.links-footer li:hover {
+  border-bottom: 2px solid white;
+}
+

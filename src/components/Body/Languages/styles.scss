@@ -1,0 +1,23 @@
+.Languages {
+  color: black;
+
+}
+
+.container-languages {
+  text-align: center;
+  margin: 20px 0;
+  padding: 30px;
+
+}
+
+.language-sel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.language-sel .card:hover {
+  transform: translateY(-45px);
+
+}

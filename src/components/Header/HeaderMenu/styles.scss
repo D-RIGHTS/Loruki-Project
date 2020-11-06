@@ -1,0 +1,27 @@
+.HeaderMenu {
+  background-color: dodgerblue;
+}
+
+.container-menu {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+}
+
+.logo {
+  font-size: 40px;
+  margin: 10px 50px;
+
+}
+
+.NavMenu  {
+  display: flex;
+}
+
+.NavMenu li {
+  padding: 30px;
+}
+
+.NavMenu li:hover {
+  border-bottom: 2px solid white;
+}
